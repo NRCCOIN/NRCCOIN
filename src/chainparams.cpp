@@ -121,10 +121,10 @@ public:
         assert(genesis.hashMerkleRoot == uint256("0xc02c9618f0da002418dbe0ba030ff46812f7d986425447db0edc9581ecf4d1f6"));
 
         // Add seednodes below //
-          vSeeds.push_back(CDNSSeedData("Noorcoin.net",  "seed1.noorcoin.net"));
-          vSeeds.push_back(CDNSSeedData("Noorcoin.net.com",  "seed2.noorcoin.net"));
-          vSeeds.push_back(CDNSSeedData("Noorcoin.net.com",  "seed3.noorcoin.net"));
-          vSeeds.push_back(CDNSSeedData("Noorcoin.net.com",  "seed4.noorcoin.net"));
+          vSeeds.push_back(CDNSSeedData("nrccoin.com",  "blockchain.nrccoin.com/"));
+          vSeeds.push_back(CDNSSeedData("nrccoin.com",  "blockchain2.nrccoin.com/"));
+          vSeeds.push_back(CDNSSeedData("nrccoin.comm",  "blockchain3.nrccoin.com/"));
+          vSeeds.push_back(CDNSSeedData("nrccoin.com",  "blockchain4.nrccoin.com/"));
 
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,53);
